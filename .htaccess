@@ -1,0 +1,9 @@
+php_value display_errors On
+php_value mbstring.http_input auto
+php_value date.timezone Asia/Bangkok
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews -Indexes
+    </IfModule>
+    RewriteEngine On
+</IfModule>

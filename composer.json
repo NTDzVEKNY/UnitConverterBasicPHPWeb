@@ -1,0 +1,8 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Object\\": "Object/",
+            "Constant\\": "Constant/"
+        }
+    }
+}

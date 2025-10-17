@@ -1,0 +1,36 @@
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+
+###> editors ###
+/.fleet
+/.idea
+/.nova
+/.vscode
+/.zed
+###< editors ###
+
+###> framework-bundle ###
+/public/bundles/
+/var/
+/vendor/
+###< framework-bundle ###
+
+
+###> php-cs-fixer ###
+/.php-cs-fixer.php
+/.php-cs-fixer.cache
+###< php-cs-fixer ###
+
+###> other ###
+*~
+*.cache
+*.log
+/composer-cache
+/node_modules
+###< other ###
